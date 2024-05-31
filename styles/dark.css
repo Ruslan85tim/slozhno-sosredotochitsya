@@ -9,4 +9,45 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --font: "IBM Plex Mono";
+  --text-shadow-desktop: #ff0070;
+  --text-shadow-mobile: #ff0070;
+  --focus-title-color: #db00ff;
+  --accent-font-color: #000028;
+  --main-bg-color: #000028;
+  --main-font-color: #f1b2ce;
+  --h2-font-color: #ff0070;
+  --button-font-color: #ff0070;
+  --button-active: #ff0070;
+  --button-hover: #ff007066;
+  --accent-bg-color: #ff0070;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --rec-color: #ff0070;
+  --rectangle-color: #ff0070;
+  --link-shadow-color: #ff0070;
+  --link-focus: #f1b2ce;
+  --link-hover: #f1b2ce;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font: "IBM Plex Mono";
+    --text-shadow-desktop: #ff0070;
+    --text-shadow-mobile: #ff0070;
+    --header-title-color: #db00ff;
+    --accent-font-color: #000028;
+    --main-bg-color: #000028;
+    --main-font-color: #f1b2ce;
+    --h2-font-color: #ff0070;
+    --button-font-color: #ff0070;
+    --button-active: #ff0070;
+    --button-hover: #ff007066;
+    --accent-bg-color: #ff0070;
+    --header-bg-image: url(../images/cover-image-dark.png);
+    --rec-color: #ff0070;
+    --rectangle-color: #ff0070;
+    --link-shadow-color: #ff0070;
+    --link-focus: #f1b2ce;
+    --link-hover: #f1b2ce;
+  }
 }
